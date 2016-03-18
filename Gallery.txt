@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<t name="Gallery" t-name="website_gallery.gallery">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair Display"/>
+  	<t t-call="website.layout">
+    <div id="wrap" class="oe_structure oe_empty">
+      <title>Eternal Wonders</title>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> </link>
+      <!--link href="/website_gallery/static/src/css/bootstrap/bootstrap.min.css" rel="stylesheet" ></link-->
+      <link href="/website_gallery/static/src/css/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+      <link href="/website_gallery/static/src/css/style.css" rel="stylesheet"/>
+      
+      <!-- link href="/website_jewelry_ordering/static/src/css/style.css" rel="stylesheet"/-->
+      
+      <script src="/website_gallery/static/src/js/jquery-1.10.2.min.js"/>
+      <script src="/website_gallery/static/src/js/bootstrap.min.js"/>
+      <script src="/website_gallery/static/src/js/main.js"/>
+      <!--body-->
+     
+      <div class="body-content body-margin-bottom">
+        <!--title-->
+        <div style="background-color:#FAFAFA;">
+          <section class="mt16 mb16">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center mt16 mb32">
+                  <h1 style="font-family:Playfair Display">Our Gallery</h1>
+                  <h3 class="text-muted">___</h3>
+                </div>
+                <div class="col-md-12 mb16 mt16" style="text-align:center; font-family:Lato;">
+                  <h4>We know that coming up with a completely unique design for your jewelry piece-be it ring, necklace,</h4>
+                  <h4>bracelet or any other - can be daunting at first. So we prepared a little gallery to serve as a source of</h4>
+                  <h4 style="margin-bottom:30px;">inspiration. Here you can see various designs that may suggest a direction for you.</h4>
+                  <center>
+                    <a class="btn btn-primary btn-lg btn-yellow" href="/gallery/ring" style="width:200px; margin-bottom:30px;font-family:Playfair Display;">RINGS </a>
+                    <a class="btn btn-primary btn-lg btn-yellow" href="/gallery/other" style="width:200px; margin-bottom:30px; font-family:Playfair Display;">OTHER JEWELRY </a>
+                  </center>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="visible-md visible-lg body-left col-md-2">
+              <img src="/website_jewelry_ordering/static/src/img/bg-left.png" class="img-responsive"/>
+              <div class="body-left-overlay"/>
+            </div>
+            <!--body content here-->
+             <form t-att-action="'/gallery'" method="get">
+            <div class="col-md-8 padding-0 requestform-bg pd-20">
+              <div class="row filter-section form-inline col-mg-bottom-10" style="margin-top:30px;">
+                <div class="visible-sm visible-lg col-sm-6 col-md-1 label-mg-top">
+                                Filter by
+                            </div>
+                <div class="visible-sm visible-lg col-sm-6 col-md-1 col-md-push-8 label-mg-top text-right filter-label-2">
+                                Sort by
+                            </div>
+                <div class="col-xs-6  col-md-1 col-md-pull-1 mg-r-20">
+                  <select name="attrib" aria-controls="newsTable" class="form-control input-sm custom-input mg-r-20">
+                    <option value="">Material</option>
+                    <option value="gold">Gold</option>
+                    <option value="platinum">Platinum</option>
+                    <option value="pladium">Pladium</option>
+                  </select>
+                </div>
+                <div class="col-xs-6  col-md-1 col-md-pull-1 mg-l-20">
+                  <select name="attrib" aria-controls="newsTable" class="form-control input-sm custom-input">
+                    <option value="">Size</option>
+                    <option value="5.5">5.5</option>
+                    <option value="6.0">6.0</option>
+                    <option value="6.5">6.5</option>
+                    <option value="7.0">7.0</option>
+                  </select>
+                </div>
+                <div class="col-xs-6  col-md-1 col-md-pull-1">
+                  <select name="attrib" aria-controls="newsTable" class="form-control input-sm custom-input">
+                    <option value="">Weight</option>
+                    <option value="10">10</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                  </select>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-1 col-md-push-5 text-right">
+                  <select name="attrib" aria-controls="newsTable" class="form-control input-sm custom-input">
+                    <option value="sequence">Most views</option>
+                    <option value="name">Name</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row product-list">
+                <t t-foreach="products" t-as="a">
+                  <div class="col-sm-12 col-sm-4 col-md-3 product-item" style="font-family: 'Playfair Display', serif;">
+                    <a t-attf-href="/gallery/{{ slug(a) }}">
+                      <span t-field="a.image" t-field-options="{&quot;widget&quot;: &quot;image&quot;}"/>
+                      <a href="#" class="text-uppercase">
+                        <span t-field="a.name"/>
+                      </a>
+                      <p style="color:rgb(128, 128, 128); font-family: 'Lato', serif;">
+                        <span t-field="a.description"/>
+                      </p>
+                      <div class="product-overylay">
+                        <a class="quick-view-btn" t-att-src="website.image_url(a, 'image', None if a else '300x300')">Quick View</a>
+                      </div>
+                    </a>
+                  </div>
+                </t>
+              </div>
+            </div>
+            </form>
+            <div class="visible-md visible-lg body-right col-md-2">
+              <img src="/website_jewelry_ordering/static/src/img/bg-left.png" class="img-responsive"/>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- Product Detail -->
+      	<div class="productImageOverlay overlayHide"/>
+        <span id="closeProductImageOverlayIcon" class="closeProductImageOverlayIcon">
+            <img src="/website_gallery/static/src/img/close.png"/>
+        </span>
+        <div class="productImageWrapper overlayHide">
+        </div>
+      <!--end body-->
+    </div>
+  </t>
+  </t>
+  	
+  	

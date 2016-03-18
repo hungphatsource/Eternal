@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<t name="Testiomonials" t-name="website_jewelry_ordering.testiomonials">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"></link>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display"></link>
+  		<t t-call="website.layout">
+  		<div id="wrap" class="oe_structure oe_empty" style="background-color:#FAFAFA">
+		    <meta charset="utf-8"/>
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+		    <title>Eternal Wonders</title>
+		    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+		   <!-- header -->
+            <div class="container">
+                <!--title-->
+                <div class="row text-center">
+                    <h1 class="margin-top-0" style="font-family:'Playfair Display', serif; margin-bottom:20px;">Testimonials</h1>
+                </div>
+                <div class="visible-sm visible-md visible-lg row text-center">
+                    <div class="main-title-line col-md-1 margin-auto float-none"> </div>
+                </div>
+                <div class="visible-sm visible-md visible-lg row text-center">
+                    <p class="title-description display-block width-100-percent">What our customer say about us.</p>
+                </div>
+            </div>
+        </div>
+        <!--end header-->
+        <!--body-->
+        <div class="body-content body-margin-bottom">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="visible-md visible-lg body-left col-md-2">
+                        <img src="/website_jewelry_ordering/static/src/img/bg-left.png" class="img-responsive"/>
+                        <div class="body-left-overlay"/>
+                    </div>
+                    <!--body content here-->
+                    <div class="col-md-8 padding-0 requestform-bg">
+                        <div class="row testiomonials-feedback">
+                            <div class="col-xs-12 text-center">
+                                <div class="open-double-quote">
+                                    <img src="/website_jewelry_ordering/static/src/img/open-quote.png"/>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div id="your-carousel-id" class="sky-carousel">
+                                    <div class="sky-carousel-wrapper">
+                                        <ul class="sky-carousel-container">
+                                        <t t-foreach="testiomonials" t-as="a">
+                                            <li>
+	                                            
+                                                <span class="col-sm-12" t-field="a.image" t-field-options="{&quot;widget&quot;: &quot;image&quot;}"/>
+                                                <div class="sc-content">
+                                                    <h2><span t-field="a.name"/></h2>
+                                                    <p><span t-field="a.job"/></p>
+                                                </div>
+                                                <div style="font-family:'Playfair Display', serif;" class="sc-description">
+	                                                  <t t-esc="a.comment"/>
+	                                                </div>
+                                            </li>
+                                          </t>  
+                                        </ul>
+                                    </div>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                            <form action="/testimonials" class="requestForm" method="post" enctype="multipart/form-data">
+                                <h2 class="text-center testiomonials-title" style="font-family:'Playfair Display', serif;">Leave Your Testimonial</h2>
+                                
+                                <div class="form requestForm">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="name" name="name" type="text" class="form-control custom-input" tabindex="1" required="required" placeholder="Your Name"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="job" name="job" type="text" class="form-control custom-input" tabindex="2" required="required" placeholder="Your Job"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input id="email" name="email" type="text" class="form-control custom-input" tabindex="3" required="required" placeholder="Your Email"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group right-inner-addon">
+                                            <span class="file-upload-btn text-uppercase testiomonials-upload-btn" tabindex="4">ATTACH</span>
+                                            <input type="text" class="form-control custom-input" name="txtFileUpload" id="txtFileUpload" required="required" placeholder="Upload an image"/>
+                                            <input type="file" accept="image/*" class="hide" name="fileUploadBtn" id="fileUploadBtn" value=""/>
+                                            <img id="reviewImg" src="#" alt="review image" class="img-responsive review-img-max-height hide"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12" style="padding-left:15px; padding-right:15px;">
+                                        <div class="form-group">
+                                            <textarea type="text" class="form-control custom-input" rows="7" name="comment" id="comment" required="required" placeholder="Your Testimonials" tabindex="5"/>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group text-center submit-btn">
+                                            <button style="font-family:'Playfair Display', serif;" type="submit" class="btn btn-default btn-yellow text-uppercase" tabindex="6">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="visible-md visible-lg body-right col-md-2">
+                        <img src="/website_jewelry_ordering/static/src/img/bg-left.png" class="img-responsive"/>
+                    </div>
+                </div>
+
+            </div>
+			<!--end body-->
+        </div>
+        
+		  
+		
+  	</t>
+  	</t>
+  	
+  	 

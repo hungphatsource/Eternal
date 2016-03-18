@@ -1,0 +1,169 @@
+<t t-name="website.our-craftsmanship">
+    <t t-call="website.layout">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"/>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display"/>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700italic" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css"/>
+        <div id="wrap" class="body-content body-margin-bottom" style="background-color:#FAFAFA;">
+            <div class="container-fluid" style="background-color:#FAFAFA">
+                <div class="row" style="background-color:#FAFAFA">
+                    <div class="visible-md visible-lg body-left col-md-2">
+                        <img class="img-responsive" src="/website_jewelry_ordering/static/src/img/bg-left.png" style="position: static;"/>
+                        <div class="body-left-overlay"/></div>
+                    <div class="padding-0 news-list col-md-8 mb32" style="background-color:#FAFAFA">
+                        <section class="mt16 mb16" style="">
+                            <div class="col-md-12">
+                                <center>
+                                    <h1 style="font-family: Playfair Display; margin-top:0px;">Exquisite Craftsmanship</h1>
+                                    <h4 class="text-muted" style="font-family: Playfair Display;">Our Top Experts Brought Together to Serve You</h4>
+                                    <p>_____</p>
+                                </center>
+                            </div>
+                            <div class="text-center col-md-12">
+                                <div class="col-md-2"/>
+                                <div class="col-md-8">
+                                    <h4 class="text-muted" style="font-family: Lato; margin-bottom:30px;">We blend modern technology with good, old craftsmanship, to create any design you desire. Here you can take a peek into what’s going on behind the scenes, thanks to expert hands taking care of the manufacturing process.</h4>
+                                </div>
+                                <div class="col-md-2"/></div>
+                        </section>
+                        <section class="mt16 mb16">
+                            <div class="col-md-12">
+                                <center>
+                                    <div class="col-md-4" style="padding-right: 0px;padding-left: 0px;">
+                                        <img class="img img-responsive" src="/website/static/src/img/oc1.jpg" style="position: static; animation-play-state: paused; "/>
+                                    </div>
+                                    <div class="col-md-4" style="padding-right: 0px;padding-left: 0px;">
+                                        <img class="img img-responsive" src="/website/static/src/img/oc2.jpg" style="position: static; animation-play-state: paused; "/>
+                                    </div>
+                                    <div class="col-md-4" style="padding-right: 0px;padding-left: 0px;">
+                                        <img class="img img-responsive" src="/website/static/src/img/oc3.jpg" style="position: static;"/>
+                                    </div>
+                                </center>
+                            </div>
+                            <div class="row col-md-12 pagination text-center">
+                                <ul>
+                                    <li>
+                                        <a href="" title="previous">
+                                            <i class="fa fa-chevron-left"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="next">
+                                            <i class="fa fa-chevron-right"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <span>4 
+                                            <sup>/16</sup>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="mt16 mb16">
+                            <div class="col-md-12">
+                                <div class="text-center mt16 mb16 col-md-12">
+                                    <h2 style="font-family: Playfair Display;">How It’s Made</h2>
+                                    <p>
+                                        <span style="color:#808080;">_____</span>
+                                    </p>
+                                </div>
+                                <h4 class="mt16 mb32 col-md-10 col-md-offset-1" style="font-family: Lato;">
+                                    <br/>
+                                    <span style="color:#808080;">We want you to feel engaged in the process - it’s your feelings, emotions, ideas that are going to be expressed in it, after all. Once we collect all the information from you in the first order submission, we will work with you over initial sketches and detailed 3D renderings before the final designs are approved for production. Thanks to modern technologies we can speed up the design process and blend it with exquisite craftsmanship, that is required to achieve the stunning, final effect.</span>
+                                </h4>
+                            </div>
+                        </section>
+                        <section style="background-color:white;">
+                            <div class="mb16 col-md-12" style="background-color:white; box-shadow: 0px 15px 20px #888888;">
+                                <div style="margin-top:40px;">
+                                    <div class="col-md-1" style="text-align:center;">
+                                        <img class="img img-rounded" src="/website_jewelry_ordering/static/src/img/open-quote.png"/>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <h3 class="text-muted text-left" style="font-family:Playfair Display;margin-bottom:40px;">
+                                            <span style="color:#000000; ">
+                                                <em>Engagement rings, necklaces, bracelets - or any other pieces of jewelry you conceive - all come to life, forged from precious metals and some of the finest gems in the world, to serve you and your loved ones for a lifetime.</em>
+                                            </span>
+                                        </h3>
+                                    </div>
+                                    <div class="col-md-1"/></div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="visible-md visible-lg body-right col-md-2">
+                        <img class="img-responsive" src="/website_jewelry_ordering/static/src/img/bg-left.png" style="position: static;"/>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="background-color:#FAFAFA">
+                <div class="row" style="background-color:#FAFAFA">
+                    <div class="visible-md visible-lg body-left col-md-2">
+                        <div class="body-left-overlay"/></div>
+                    <div class="padding-0 news-list col-md-8 mb32" style="background-color:#FAFAFA">
+                        <section class="mt16 mb16">
+                            <div class="mb16 mt16 col-md-10 col-md-offset-1">
+                                <h3 style="font-family: &quot;Playfair Display&quot;;">Only the Finest Materials</h3>
+                                <h4 style="font-family: Lato;">
+                                    <span style="color:#808080;">Our in house craftsmen come with decades of experience in jewelry-making, using only the highest quality materials - precious gemstones and metals. Our stones are all sourced from conflict-free areas and come with specially issued certificates of authenticity and origin. Ethics, honesty and tradition are the values we are devoted supporters of. We believe that no thing of true beauty can come at the expense of anybody else.</span>
+                                </h4>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="visible-md visible-lg body-right col-md-2"/></div>
+            </div>
+            <div class="container-fluid" style="background-color:#FAFAFA">
+                <div class="row" style="background-color:#FAFAFA">
+                    <div class="visible-md visible-lg body-left col-md-2">
+                        <img class="img-responsive" src="/website_jewelry_ordering/static/src/img/bg-left.png" style="position: static;"/>
+                        <div class="body-left-overlay"/></div>
+                    <div class="padding-0 news-list col-md-8 mb32" style="background-color:#FAFAFA">
+                        <div class="text-center mb16 mt16 col-md-12">
+                            <img class="img-responsive" src="/website/static/src/img/oc4.jpg" style="position: static; opacity: 1; box-shadow: 0px 15px 30px #888888;"/>
+                        </div>
+                        <section>
+                            <div class="col-md-10 col-md-offset-1">
+                                <h4 style="font-family: Lato; margin-top:40px;">
+                                    <span style="color:#808080;">Highest quality craftsmanship demands time and attention to detail, so the entire process of transforming your design ideas into a physical piece of sheer brilliance takes between 3 and 5 weeks. And after that it will stay with you and your close ones for eternity.</span>
+                                </h4>
+                            </div>
+                        </section>
+                        <section class="mt16 mb16">
+                            <div class="col-md-10 col-md-offset-1">
+                                <blockquote style="border-left:5px solid #D1BB79;">
+                                    <h3 style="margin-top:0px;">
+                                        <bi style="font-family: 'Playfair Display', serif;">
+                                            <i>Jewelry is, seemingly, devoid of practical use - and yet, it’s the only material thing that serves us as a time capsule, storing our emotions, dreams, feelings... That’s why we insist on making it from the toughest materials known to man - so they can last forever.</i>
+                                        </bi>
+                                    </h3>
+                                </blockquote>
+                            </div>
+                        </section>
+                        <section class="mt16 mb16">
+                            <div class="col-md-10 col-md-offset-1">
+                                <h4 style="font-family: Lato;">
+                                    <span style="color:#808080;">That’s the dual - symbolic and functional - use of platinum, gold, silver and precious gemstones, from diamonds to emeralds, from rubies to sapphires. For some they remain just elements giving jewelry its “bling”. But in truth, they serve to be solid, unbreakable symbols of the intentions expressed by people who own them. That’s why we believe no piece of jewelry is quite as valuable, as the one you designed yourself. It’s the ultimate expression of you - a moment from your life, secured in time for eternity.</span>
+                                </h4>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="col-md-12 text-center mt16 mb32"/>
+                            <div class="mb8 col-md-4" style="margin-bottom:20px;">
+                                <img class="img img-responsive mb16" src="/website/static/src/img/oc5.jpg" style="position: static"/>
+                            </div>
+                            <div class="col-md-8" style="margin-bottom:20px;">
+                                <img class="img img-responsive mb16" src="/website/static/src/img/oc6.jpg" style="position: static"/>
+                            </div>
+                            <div class="col-md-8">
+                                <img class="img img-responsive mb16" src="/website/static/src/img/oc7.jpg" style="position: static"/>
+                            </div>
+                            <div class="mb32 col-md-4">
+                                <img class="img img-responsive mb16" src="/website/static/src/img/oc8.jpg" style="position: static"/>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+</t>

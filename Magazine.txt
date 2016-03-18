@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<t name="Magazine" t-name="website_jewelry_ordering.magazine">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display"/>
+    <t t-call="website.layout">
+        <div id="wrap" class="oe_structure oe_empty" style="background-color:#FAFAFA">
+            <meta charset="utf-8"/>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <title>Eternal Wonders</title>
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+            
+            <!--link href="/website_jewelry_ordering/static/src/css/bootstrap/bootstrap.min.css" rel="stylesheet"/-->
+            <link href="/website_jewelry_ordering/static/src/css/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+            <link href="/website_jewelry_ordering/static/src/css/style.css" rel="stylesheet"/>
+            <script src="/website_jewelry_ordering/static/src/js/jquery-1.10.2.min.js"/>
+            <!--script src="/website_jewelry_ordering/static/src/js/bootstrap.min.js"/-->
+            <script src="/website_jewelry_ordering/static/src/js/main.js"/>
+            <div class="body-content body-margin-bottom" style="font-family: 'Playfair Display',serif;">
+                <div class="row text-center">
+                    <h1 class="margin-top-0" style="margin-bottom:30px;">Magazine
+                    </h1>
+                </div>
+                <div class="visible-sm visible-md visible-lg row text-center">
+                    <div class="main-title-line col-md-1 margin-auto float-none"/></div>
+                <div class="visible-sm visible-md visible-lg row text-center">
+                    <p class="title-description display-block width-100-percent" style="font-family: 'Lato', serif; margin-bottom:40px;">Here’s our little knowledge source. All information you may need about
+                    <br/>custom designs - and what makes a great jewelry piece!
+                    </p>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="visible-md visible-lg body-left col-md-2">
+                            <img src="/website_jewelry_ordering/static/src/img/bg-left.png" class="img-responsive"/>
+                            <div class="body-left-overlay"/></div>
+                        <!--body content here-->
+                        <div class="col-md-8 padding-0 news-list">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="news-item type-1">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Jewelry</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Diamonds</a>
+                                            </li>
+                                        </ul>
+                                        <div class="news-item-content">
+                                            <a href="#" title="title" class="news-item-title">
+                                                <h3><span>Making your special diamond custom engagement ring</span></h3>
+                                            </a>
+                                            <p style="font-family: 'Lato', serif; ">
+                                            With over three decades of experience in jewelry craft, we have brought our most artisans together, to create a special, bespoke service allowing you transform your ideas into unique pieces of jewelry which will last all eternity. We cross boundaries of digital and physical, bringing you access to our selected group of jewelers within a click of a button...
+                                        </p>
+                                        </div>
+                                        <div class="row others-info">
+                                            <div class="col-xs-12">
+                                                <div class="col-xs-6 text-left">
+                                                    <i class="fa fa-calendar-minus-o"/> 25 Dec 2015
+                                            
+                                                </div>
+                                                <div class="col-xs-6 text-right">
+                                                    <div class="col-xs-6">
+                                                        <i class="fa fa-thumbs-o-up"/> 123
+                                                
+                                                    </div>
+                                                    <div class="col-xs-6">
+                                                        <i class="fa fa-thumbs-o-down"/> 23
+                                                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="news-item type-2">
+                                        <div class="news-overlay"/>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Jewelry</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Beauty</a>
+                                            </li>
+                                        </ul>
+                                        <div class="news-item-content">
+                                            <a href="#" title="title" class="news-item-title">
+                                                <h3 class="silver-title"><em><span>Flaunt your beauty in style with diamond engagement ring Design by Eternal Wonders</span></em></h3>
+                                            </a>
+                                        </div>
+                                        <div class="row others-info">
+                                            <div class="col-xs-6 text-left">
+                                                <i class="fa fa-calendar-minus-o"/> 25 Dec 2015
+                                        
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <div class="col-xs-6">
+                                                    <i class="fa fa-thumbs-o-up"/> 123
+                                            
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <i class="fa fa-thumbs-o-down"/> 23
+                                            
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="news-item type-1">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Jewelry</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Diamonds</a>
+                                            </li>
+                                        </ul>
+                                        <div class="news-item-content">
+                                            <a href="#" title="title" class="news-item-title">
+                                                <h3><span>Making your special diamond custom engagement ring</span></h3>
+                                            </a>
+                                             <p style="font-family: 'Lato', serif; ">
+                                            With over three decades of experience in jewelry craft, we have brought our most artisans together, to create a special, bespoke service allowing you transform your ideas into unique pieces of jewelry which will last all eternity. We cross boundaries of digital and physical, bringing you access to our selected group of jewelers within a click of a button...
+                                        </p>
+                                        </div>
+                                        <div class="row others-info">
+                                            <div class="col-xs-12">
+                                                <div class="col-xs-6 text-left">
+                                                    <i class="fa fa-calendar-minus-o"/> 25 Dec 2015
+                                            
+                                                </div>
+                                                <div class="col-xs-6 text-right">
+                                                    <div class="col-xs-6">
+                                                        <i class="fa fa-thumbs-o-up"/> 123
+                                                
+                                                    </div>
+                                                    <div class="col-xs-6">
+                                                        <i class="fa fa-thumbs-o-down"/> 23
+                                                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="news-item type-1">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Jewelry</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Diamonds</a>
+                                            </li>
+                                        </ul>
+                                        <div class="news-item-content">
+                                            <a href="#" title="title" class="news-item-title">
+                                                <h3><span>Making your special diamond custom engagement ring</span></h3>
+                                            </a>
+                                             <p style="font-family: 'Lato', serif; ">
+                                            With over three decades of experience in jewelry craft, we have brought our most artisans together, to create a special, bespoke service allowing you transform your ideas into unique pieces of jewelry which will last all eternity. We cross boundaries of digital and physical, bringing you access to our selected group of jewelers within a click of a button...
+                                        </p>
+                                        </div>
+                                        <div class="row others-info">
+                                            <div class="col-xs-12">
+                                                <div class="col-xs-6 text-left">
+                                                    <i class="fa fa-calendar-minus-o"/> 25 Dec 2015
+                                            
+                                                </div>
+                                                <div class="col-xs-6 text-right">
+                                                    <div class="col-xs-6">
+                                                        <i class="fa fa-thumbs-o-up"/> 123
+                                                
+                                                    </div>
+                                                    <div class="col-xs-6">
+                                                        <i class="fa fa-thumbs-o-down"/> 23
+                                                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="news-item type-1">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Jewelry</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Diamonds</a>
+                                            </li>
+                                        </ul>
+                                        <div class="news-item-content">
+                                            <a href="#" title="title" class="news-item-title">
+                                               <h3><span>Making your special diamond custom engagement ring</span></h3>
+                                            </a>
+                                             <p style="font-family: 'Lato', serif; ">
+                                            With over three decades of experience in jewelry craft, we have brought our most artisans together, to create a special, bespoke service allowing you transform your ideas into unique pieces of jewelry which will last all eternity. We cross boundaries of digital and physical, bringing you access to our selected group of jewelers within a click of a button...
+                                        </p>
+                                        </div>
+                                        <div class="row others-info">
+                                            <div class="col-xs-12">
+                                                <div class="col-xs-6 text-left">
+                                                    <i class="fa fa-calendar-minus-o"/> 25 Dec 2015
+                                            
+                                                </div>
+                                                <div class="col-xs-6 text-right">
+                                                    <div class="col-xs-6">
+                                                        <i class="fa fa-thumbs-o-up"/> 123
+                                                
+                                                    </div>
+                                                    <div class="col-xs-6">
+                                                        <i class="fa fa-thumbs-o-down"/> 23
+                                                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4">
+                                    <div class="news-item type-2">
+                                        <div class="news-overlay"/>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Jewelry</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Beauty</a>
+                                            </li>
+                                        </ul>
+                                        <div class="news-item-content">
+                                            <a href="#" title="title" class="news-item-title">
+                                                <h3 class="silver-title"><em><span>Flaunt your beauty in style with diamond engagement ring Design by Eternal Wonders</span></em></h3>
+                                            </a>
+                                        </div>
+                                        <div class="row others-info">
+                                            <div class="col-xs-6 text-left">
+                                                <i class="fa fa-calendar-minus-o"/> 25 Dec 2015
+                                        
+                                            </div>
+                                            <div class="col-xs-6 text-right">
+                                                <div class="col-xs-6">
+                                                    <i class="fa fa-thumbs-o-up"/> 123
+                                            
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <i class="fa fa-thumbs-o-down"/> 23
+                                            
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row col-md-12 pagination text-center">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="previous">
+                                            <i class="fa fa-chevron-left"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="next">
+                                            <i class="fa fa-chevron-right"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <span>4
+                                            <sup>/16</sup>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="visible-md visible-lg body-right col-md-2">
+                            <img src="/website_jewelry_ordering/static/src/img/bg-left.png" class="img-responsive"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+</t>
+  	
+	

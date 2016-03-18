@@ -1,0 +1,122 @@
+<t name="Homepage" priority="29" t-name="website.homepage">
+  <t t-call="website.layout">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display"/>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400italic" rel="stylesheet" type="text/css"/>
+    <div id="wrap" class="oe_structure oe_empty" style="background-color:#FAFAFA">
+      <section class="mt16 mb16">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center mt16 mb32">
+              <h1 id="title-our-craft" style="margin-top:0px;">"Our craftsmen will give your ideas and<br/>
+feelings an eternal life"</h1>
+            </div>
+            <div class="col-md-12 mb16 mt16">
+              <center>
+                <a class="btn btn-primary btn-lg btn-yellow" href="/ring_ordering" style="margin-top:20px;margin-right:15px; margin-left-15px; font-family:Playfair Display;"><img data-pin-nopin="true" src="/website/static/src/img/design-ring-icon.png"/> DESIGN MY RING </a>
+                <a class="btn btn-primary btn-lg btn-yellow" href="/jewelry_ordering" style="margin-top:20px; margin-bottom:0px; margin-right:15px; margin-left-15px; font-family:Playfair Display;"><img src="/website/static/src/img/design-jewelry-icon.png"/> DESIGN JEWELRY </a>
+              </center>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container-fluid" style="background-color:#FAFAFA">
+        <div style="background-color:#FAFAFA">
+          <div class="visible-md visible-lg body-left col-md-2">
+            <img class="img-responsive" src="/website_jewelry_ordering/static/src/img/bg-left.png" style="position: static;"/>
+            <div class="body-left-overlay"/>
+          </div>
+          <div class="padding-0 news-list col-md-8 mb32" style="background-color:#FAFAFA">
+            <div class="text-center mt16 col-md-12">
+              <img class="img-responsive" src="/website/static/src/img/main-photo.jpg" style="position: static; opacity: 1; box-shadow: 0px 20px 20px rgb(136, 136, 136); animation-play-state: paused; transition: none 0s ease 0s;-webkit-transform: translateY(0.4%);-moz-transform: translateY(0.4%);-ms-transform: translateY(0.4%);-o-transform: translateY(0.4%);transform: translateY(0.4%)"/>
+            </div>
+            <section>
+              <div class="mb16 col-md-12">
+                <h1 class="text-center" style="margin-top:40px; font-family:Playfair Display">What We Do</h1>
+                <h3 class="text-muted text-center" style="margin-top:30px;">___</h3>
+              </div>
+            </section>
+            <div class="col-md-12" style="margin-top:30px; background-color:white;">
+             <div id="custom-ring-top-img" class="col-md-6" style="padding-right: 0px;padding-left: 0px;">
+                <img class="img-responsive" src="/website/static/src/img/for-eternity.jpg" />
+              </div>
+              <div class="mt16 col-md-6" style="background-color:white;">
+                <h3 style="font-family:Playfair Display; margin-left:25px; margin-top:40px;">Custom Engagement Rings</h3>
+                <h4 style="font-family: Playfair Display; margin-left:25px;">Surprise Your Loved One</h4>
+                <h4 style="font-family: Lato ,Helvetica Neue; text-align: justify;">
+                  <span style="color:#808080;"/>
+                </h4>
+                <h5 style="font-family: Lato; margin-left: 25px; margin-top:30px;">
+                  <span style="color:#808080;">There are millions of engagement rings around the world. These days you can select one of thousands of templates with just a click of a button. But do you really want to? Make your engagement a truly memorable experience. It’s one for a lifetime after all. Design a unique ring that nobody else can have and let it be a symbol of your equally special love. </span>
+                </h5>
+                <h5 style="margin-top:20px;">
+                  <a class="btn btn-primary btn-lg btn-yellow" href="/ring_ordering/" style="font-family:Playfair Display; font-size:14px; margin-left:5px; margin-left:20px; margin-bottom:30px; margin-top:20px;">LEARN MORE </a>
+                </h5>
+              </div>
+              <div class="col-md-6"  id="custom-ring-bottom-img" style="padding-right: 0px;padding-left: 0px;">
+                <img class="img-responsive" src="/website/static/src/img/for-eternity.jpg" />
+              </div>
+            </div>
+            <div class="col-md-12" style="background-color:white; margin-top:0px;">
+              <div class="col-md-6" style="padding-right: 0px;padding-left: 0px;">
+                <img class="img-responsive" src="/website/static/src/img/heritage-image.jpg"/>
+              </div>
+              <div class="mt16 col-md-6" style="background-color:white;">
+                <h3 style="font-family:Playfair Display; margin-left:25px; margin-top:30px;">Custom Jewelry</h3>
+                <h4 style="font-family: Playfair Display; margin-left:25px;">Express Yourself</h4>
+                <h4 style="font-family: Lato ,Helvetica Neue; text-align: justify;"/>
+                <h5 style="font-family: Lato; margin-left:25px; margin-top:30px;">
+                  <span style="color:#808080;">The choice of fine jewelry is very broad these days, but wouldn’t it be marvelous to have something that is uniquely yours? An ultimate expression of who you are, your style, your personality? Something nobody else has? And yet, have it made by the finest craftsmen? Well, we make it possible for You. Just click below to learn more. </span>
+                </h5>
+                <h5 style="margin-top:20px;">
+                  <a class="btn btn-primary btn-lg btn-yellow" href="/jewelry_ordering/" style="font-family:Playfair Display; font-size:14px;margin-left:5px; margin-left:20px; margin-top:20px; margin-bottom:30px;">LEARN MORE </a>
+                </h5>
+              </div>
+            </div>
+            <section>
+              <div class="mb16 col-md-12">
+                <h1 class="text-center" style="margin-top:40px; font-family:Playfair Display">Who Are We?</h1>
+                <h3 class="text-muted text-center">___</h3>
+              </div>
+            </section>
+            <section>
+              <div class="mb16 col-md-12">
+                <div style="margin-bottom:30px;">
+                  <div class="col-md-2" style="margin-top:0px;"/>
+                  <div class="col-md-8">
+                    <h5 class="text-muted text-left" style="margin-top:20px;margin-bottom:30px; font-family:Lato">With over three decades of experience in jewelry craft, we have brought our most trusted artisans together to create a special, bespoke service allowing you transform your ideas into unique pieces of jewelry which will last all eternity. We cross boundaries of digital and physical, bring you access to our selected group of jewelers within a click of a button - so your designs can transcend time and leave a mark that will last forever.</h5>
+                  </div>
+                  <div class="col-md-2"/>
+                </div>
+              </div>
+            </section>
+            <section style="background-color:white; margin-bottom:40px;">
+              <div class="mb16 col-md-12" style="background-color:white;">
+                <div style="margin-top:30px;">
+                  <div class="col-md-2" style="text-align:center;">
+                    <img class="img img-rounded" src="/website_jewelry_ordering/static/src/img/open-quote.png"/>
+                  </div>
+                  <div class="col-md-10">
+                    <h3 class="text-muted text-left" style="font-family: 'Playfair Display', serif; margin-top:30px;">
+                      <span style="color:#000000;">
+                        <i>With over three decades of experience in jewelry craft, we have brought our most trusted artisans together, to create a special, bespoke service allowing you transform your ideas into unique pieces of jewelry which will last all eternity.</i>
+                      </span>
+                    </h3>
+                    <h3 class="text-muted text-left" style="font-family: 'Playfair Display', serif; margin-bottom: 30px; margin-top:30px;">
+                      <span style="color:#000000;">
+                        <i>We cross boundaries of digital and physical, bringing you access to our selected group of jewelers within a click of a button - so your designs can transcend time and leave a mark that will last forever.</i>
+                      </span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="visible-md visible-lg body-right col-md-2">
+            <img class="img-responsive" src="/website_jewelry_ordering/static/src/img/bg-left.png" style="position: static;"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </t>
+</t>

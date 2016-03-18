@@ -1,0 +1,141 @@
+<data inherit_id="website.layout" name="Footer">
+    <xpath expr="//div[@id='footer_container']" position="replace">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"></link>
+        <link href="/website_jewelry_ordering/static/src/css/style.css" rel="stylesheet"/>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"/>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display"/>
+        <div class="container-fluid footer-wrapper">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="row footer-top">
+                        <div class="visible-md visible-lg col-md-3">
+                            <p style="font-family: 'Playfair Display',serif; font-size:25px; color:white; margin-top:20px;">Eternal Wonders</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3">
+                            <h3 class="text-uppercase">CATEGORIES</h3>
+                            <div class="row text-left">
+                                <div class="col-sm-6">
+                                    <a style="font-family: Lato;" href="/">
+                                        <span>Home</span>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a style="font-family: Lato;" href="/testimonials">
+                                        <span>Testimonials</span>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a style="font-family: Lato;" href="/page/our-craftsmanship">
+                                        <span>Craftsmanship</span>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a style="font-family: Lato;" href="/page/magazine/">
+                                        <span>Magazine</span>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a style="font-family: Lato;" href="/gallery">
+                                        <span>Gallery</span>
+                                    </a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a style="font-family: Lato;" href="/page/website.contactus">
+                                        <span>Contact</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visible-sm visible-md visible-lg col-sm-4 col-sm-push-4 col-md-3 col-md-push-0">
+                            <h3 class="text-uppercase" >FOLLOW US</h3>
+                            <div class="row text-left">
+                                <div class="col-md-6">
+                                    <a style="font-family: Lato;" href="https://www.facebook.com/profile.php?id=100011343041540">
+                                        <span>
+                                            <i style="margin-right:5px;" class="fa fa-facebook"></i>
+                                            Facebook
+                                        
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a style="font-family: Lato;" href="https://twitter.com/WondersEternal">
+                                        <span>
+                                            <i style="margin-right:5px;" class="fa fa-twitter"></i>
+                                   Twitter
+                                        
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a style="font-family: Lato;" href="https://www.instagram.com/enteralwonders/">
+                                        <span>
+                                            <i style="margin-right:5px;" class="fa fa-instagram"></i> 
+                                   Instagram
+                                        
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a style="font-family: Lato;" href="https://plus.google.com/u/0/107682961723984180897/posts">
+                                        <span>
+                                            <i style="margin-right:5px;" class="fa fa-google-plus"></i> Google
+                                        
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-sm-pull-4 col-md-3 col-md-pull-0">
+                            <h3 class="text-uppercase text-left">CONTACT</h3>
+                            <div class="text-left">
+                                <div>
+                                    <p>
+                                        Studio M, 4th Floor
+                                        8 Lower Ormond Street Manchester, M1 5QF
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="col-md-12 footer-socials">
+                            <div class="visible-xs col-md-6 col-md-3 text-center">
+                                <a href="https://www.facebook.com/profile.php?id=100011343041540">
+                                    <span>
+                                        <i class="fa fa-facebook"></i>
+                                        <!--facebook-->
+                                    </span>
+                                </a>
+                                <a href="https://twitter.com/WondersEternal">
+                                    <span>
+                                        <i class="fa fa-twitter"></i>
+                                    </span>
+                                    <!--twitter-->
+                                </a>
+                                <a href="https://www.instagram.com/enteralwonders/">
+                                    <i class="fa fa-instagram"></i>
+                                    <!--nstagram-->
+                                </a>
+                                <a href="https://plus.google.com/u/0/107682961723984180897/posts">
+                                    <span>
+                                        <i class="fa fa-google-plus"></i>
+                                    </span>
+                                    <!--google+-->
+                                </a>
+                            </div>
+                        </div>
+                    <div class="row footer-bottom">
+                        
+                        <div class="col-md-6 text-left copy-right">
+                              &amp;copy; 2015 Eternal Wonders All rights reserved
+                        </div>
+                        <div class="visible-sm visible-md visible-lg col-sm-6 text-right">
+                            hello@eternalwonders.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </xpath>
+</data>

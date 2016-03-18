@@ -1,0 +1,135 @@
+<t t-name="website.how-it-work">
+  <t t-call="website.layout">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"></link>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display"></link>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=KeplerStd"></link>
+    <div id="wrap" class="oe_structure oe_empty">
+      <section class="mt16 mb16">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center mt16 mb32">
+              <h2 style="font-family:'Playfair Display', serif; margin-top:0px; font-size:40px;">How It Works</h2>
+              <h3 class="text-muted">___</h3>
+              <h4 class="text-muted" style="font-family:KeplerStd; margin-top:30px;">We’ve prepared a little guide through our ordering and design process.<br/>
+Just scroll bellow to see how much time and effort your order will require.</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container-fluid" style="background-color:#FAFAFA">
+        <div class="row" style="background-color:#FAFAFA">
+          <div class="visible-md visible-lg body-left col-md-2">
+            <img class="img-responsive" src="/website_jewelry_ordering/static/src/img/bg-left.png" style="position: static;"/>
+            <div class="body-left-overlay"/>
+          </div>
+          <div class="padding-0 news-list col-md-8 mb0" style="background-color:white">
+            <div class="row">
+              <div class="text-center mt16 mb32 col-md-8 col-md-offset-2">
+                <h2 style="color:#D1BB79;font-family:Playfair Display; margin-top:30px;">
+                  <em>Step N <u>o</u> 1 </em>
+                </h2>
+                <h3 class="text-muted" style="margin-top:30px;">
+                  <span style="color:#000000; font-family:Playfair Display; margin-top:30px;">Submit the details of your jewelry or ring design</span>
+                </h3>
+                <img class="img img-responsive" src="/website/static/src/img/step1.jpg" style="position: static;"/>
+                <h4 style="font-family: KeplderStd;">
+                  <span style="color:#808080;"/>
+                </h4>
+                <h4 style="font-family: KeplderStd;">
+                  <span style="color:#808080; font-family:KeplerStd; font-size:14px;">Everything starts with our ordering form. Please submit all the details that could help us understand your goals for the design. If you have any sketches of your own ideas - it would be great if you could attach them as well! However, we know that design process can be a little challenging, so we’ve prepared a visual guide, helping you select the styles, stones and finishing. Click below to see it now!</span>
+                </h4>
+                <p style="text-align: center; margin-top:30px;">
+                  <a class="btn btn-primary btn-lg bnt-yellow" href="/jewelry_ordering" style="text-align:center;font-family:'Playfair Display', serif;">SUBMIT NOW</a>
+                </p>
+              </div>
+            </div>
+            <div class="img-responsive" style="overflow: hidden; position: static;  background-image: url(&quot;/website/static/src/img/hiw-background.png&quot;);">
+              <div class="text-center mt16 col-md-8 col-md-offset-2 mb16">
+                <h2 style="color:#D1BB79;font-family:Playfair Display; margin-top:30px;">
+                  <em>Step N <u>o</u> 2 </em>
+                </h2>
+                <h3 class="text-muted" style="font-family:Playfair Display; margin-top:30px;">
+                  <span style="color:#000000;">We will contact you by email or phone to discuss the details</span>
+                </h3>
+                <img class="img img-responsive" src="/website/static/src/img/step2.jpg" style="position: static;"/>
+                <h4 style="font-family:Playfair Display;">
+                  <span style="color:#808080;"/>
+                </h4>
+                <h4 style="font-family:KeplerStd; margin-bottom:30px;">
+                  <span style="color:#808080; font-size:14px; ">Once you complete the form we will contact you by phone and email to schedule a call at a suitable time - to discuss your ideas, our recommendations, the project’s timeline and cost. Each of the orders we take is custom tailored and we want to make sure you are aware of all the great options you have - and share our suggestions on how to perfect your design.</span>
+                </h4>
+              </div>
+            </div>
+            <div class="img-responsive" style="overflow: hidden; position: static;  background-image: url(&quot;/website/static/src/img/hiw-background.png&quot;);">
+              <div class="text-center mt16 col-md-8 col-md-offset-2 mb4">
+                <h2 style="color:#D1BB79;font-family:Playfair Display; margin-top:30px;">
+                  <em>Step N <u>o</u> 3 </em>
+                </h2>
+                <h3 class="text-muted" style="font-family:Playfair Display; margin-top:30px;">
+                  <span style="color:#000000;">Sketches</span>
+                </h3>
+                <img class="img img-responsive" src="/website/static/src/img/step3.jpg" style="position: static;"/>
+                <h4 style="font-family:Playfair Display;">
+                  <span style="color:#808080;"/>
+                </h4>
+                <h4 style="font-family:KeplerStd; margin-bottom:30px;">
+                  <span style="color:#808080; font-size:14px;">Having all of the necessary details, we will take a few days to prepare initial sketches of your design. You will finally be able to see your design take shape! The goal of this stage is to finalize the design and get your approval before we deliver you complete 3D renderings.</span>
+                </h4>
+              </div>
+            </div>
+            <div class="img-responsive" style="overflow: hidden; position: static;  background-image: url(&quot;/website/static/src/img/hiw-background.png&quot;);">
+              <div class="text-center mt16 mb16 col-md-8 col-md-offset-2">
+                <h2 style="color:#D1BB79;font-family:Playfair Display; margin-top:30px;">
+                  <em>Step N <u>o</u> 4 </em>
+                </h2>
+                <h3 class="text-muted" style="font-family:Playfair Display; margin-top:30px;">
+                  <span style="color:#000000;">3D Renderings</span>
+                </h3>
+                <img class="img img-responsive" src="/website/static/src/img/step4.jpg" style="position: static;"/>
+                <h4 style="font-family:Playfair Display;">
+                  <span style="color:#808080;"/>
+                </h4>
+                <h4 style="font-family:KeplerStd;margin-bottom:30px;">
+                  <span style="color:#808080; font-size:14px;">With the sketches in hand and approved by you, our designers will turn them into beautiful 3D models, that will look virtually like the final piece. Thanks to high resolution and unlimited options of modification we can fine tune the design with you and iron out the final details, before sending the renderings to final production.</span>
+                </h4>
+              </div>
+            </div>
+            <div class="img-responsive" style="overflow: hidden; position: static; background-image: url(&quot;/website/static/src/img/hiw-background.png&quot;);">
+              <div class="text-center mt16 col-md-8 col-md-offset-2 mb8">
+                <h2 style="color:#D1BB79;font-family:Playfair Display; margin-top:30px;">
+                  <em>Step N <u>o</u> 5 </em>
+                </h2>
+                <h3 class="text-muted" style="font-family:Playfair Display; margin-top:30px;">
+                  <span style="color:#000000;">Crafting Your Jewelry</span>
+                </h3>
+                <img class="img img-responsive" src="/website/static/src/img/step5.jpg" style="position: static;"/>
+                <h4 style="font-family:KeplerStd; margin-bottom:30px;">
+                  <span style="color:#808080; font-size:14px;">Despite involvement of all the great technology - software and hardware that helps us design jewelry these days, the final execution of the design still lies in the hands of a gifted, experienced goldsmith. Based on final renderings your design will now be crafted from real metals and real stones, shaped by skilled artisans to take its final, glorious shape.</span>
+                </h4>
+              </div>
+            </div>
+            <div class="img-responsive" style="overflow: hidden; background-image: url(&quot;/website/static/src/img/hiw-background.png&quot;); position: static;">
+              <div class="text-center mt16 mb32 col-md-offset-2 col-md-8">
+                <h2 style="color:#D1BB79;font-family:Playfair Display; margin-top:30px;">
+                  <em>Step N <u>o</u> 6 </em>
+                </h2>
+                <h3 class="text-muted" style="font-family:Playfair Display; margin-top:30px;">
+                  <span style="color:#000000;">Delivery to your doorstep</span>
+                </h3>
+                <img class="img img-responsive" src="/website/static/src/img/step6.jpg" style="position: static;"/>
+                <h4 style="font-family:KeplerStd; margin-bottom:30px;">
+                  <span style="color:#808080; font-size:14px;">Finally, between 3 and 5 weeks from your order submission, the completed piece arrives to your address in an elegant box, worthy of the real wonders inside it - eternal wonders.</span>
+                </h4>
+              </div>
+            </div>
+            <div class="col-md-12" style="background-color:#fafafa; height:40px;">
+            </div>
+          </div>
+          <div class="visible-md visible-lg body-right col-md-2">
+            <img class="img-responsive" src="/website_jewelry_ordering/static/src/img/bg-left.png" style="position: static;"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </t>
+</t>

@@ -1,0 +1,86 @@
+<t name="Contact us" t-name="website.contactus">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair Display"/>
+    <t t-call="website.layout">
+        <div class="container-fluid" style="background-color:#FAFAFA">
+            <div class="row" style="background-color:#FAFAFA">
+                <div class="visible-md visible-lg body-left col-md-2">
+                    <img class="img-responsive" src="/website_jewelry_ordering/static/src/img/bg-left.png" style="position: static;"/>
+                    <div class="body-left-overlay"/></div>
+                <div class="padding-0 news-list col-md-8 mb32">
+                    <div id="wrap">
+                        <div class="oe_structure">
+                            <section class="mt16 mb16">
+                                <div class="col-md-12" style="background-color:#FAFAFA">
+                                    <div class="text-center mt16 mb0 col-md-12">
+                                        <h2 style="font-family:Playfair Display;">Contact Us</h2>
+                                        <h3 class="text-muted">___</h3>
+                                        <p style="margin-top:30px;">Perhaps you'd like to speak with us before ordering? Just call or send</p>
+                                        <p  style="margin-bottom:30px;">an email and we'll happy to help you any request!</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-12" style="background-color:white">
+                                    <div class="col-md-4">
+                                        <center>
+                                            <img class="img img-rounded" src="/website_jewelry_ordering/static/src/img/Phone.png" style="position: static"/>
+                                        </center>
+                                        <h4 class="mt16" style="text-align: center;">Phone</h4>
+                                        <p style="text-align: center;">___</p>
+                                        <p style="text-align: center;">+ (323) 405-76-15</p>
+                                        <p style="text-align: center;">+ (323) 405-76-95</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <center>
+                                            <img class="img img-rounded" src="/website_jewelry_ordering/static/src/img/Address.png" style="position: static"/>
+                                        </center>
+                                        <h4 class="mt16" style="text-align: center;"/>
+                                        <h4 class="mt16" style="text-align: center;">Address</h4>
+                                        <p style="text-align: center;">___</p>
+                                        <p style="text-align: center;">7925 Santa Monica Blvd. West</p>
+                                        <p style="text-align: center;">Hollywood, CA 90046</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <center>
+                                            <img class="img img-rounded" src="/website_jewelry_ordering/static/src/img/Email.png" style=""/>
+                                        </center>
+                                        <h4 class="mt16"/>
+                                        <h4 class="mt16" style="text-align: center;">Email</h4>
+                                        <p style="text-align: center;">___</p>
+                                        <p style="text-align: center;">Support@eternalwonders.com</p>
+                                        <p style="text-align: center;">hello@eternalwonder.com</p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-md-12" style="background-color:white">
+                            <h1/>
+                            <div class="col-md-12">
+                                <div class="oe_structure col-md-12">
+                                    <center>
+                                        <div class="col-md-12" style="font-family:Playfair Display;">
+                                            <h2>Do you have any question? </h2>
+                                            <h2>Please do not hesitate to send us a message.</h2>
+                                        </div>
+                                    </center>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="text-center mt64 col-md-12" name="mail_button">
+                                        <a t-attf-href="mailto:{{ res_company.email }}" class="btn btn-primary">Send us an email</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb32">
+                                <!--div groups="base.group_website_publisher" t-ignore="true" class="pull-right css_editable_mode_hidden" t-att-style="style or ''"><a class="btn btm-sm btn-default" t-att-href="'/web#return_label=Website&amp;model=%s&amp;id=%s' % (res_company._name, res_company.id)">Change address</a></div-->
+                                <t t-call="website.company_description"/>
+                            </div>
+                        </div>
+                        <div class="oe_structure"/></div>
+                </div>
+                <div class="visible-md visible-lg body-right col-md-2">
+                    <img class="img-responsive" src="/website_jewelry_ordering/static/src/img/bg-left.png" style="position: static;"/>
+                </div>
+            </div>
+        </div>
+    </t>
+</t>

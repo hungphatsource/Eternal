@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<data name="Contact Form" inherit_id="website.contactus" customize_show="True">
+    <xpath expr="//div[@name='mail_button']" position="replace">
+     <link href="/website_jewelry_ordering/static/src/css/style.css" rel="stylesheet"/>
+     <div class="col-md-12">
+        <form action="/crm/contactus" method="post" class="form-horizontal mt32 requestForm" enctype="multipart/form-data">
+            <div class="col-md-12">
+            <div class="col-md-6" t-attf-class="form-group #{error and 'contact_name' in error and 'has-error' or ''}">
+                <!--label class="col-md-3 col-sm-4 control-label" for="contact_name">Your Name</label-->
+                <div class="col-md-12 col-sm-8">
+                    <input style="margin-bottom:20px;" type="text" class="form-control" name="contact_name" required="True" t-attf-value="#{contact_name or ''}" placeholder="Your Name"/>
+                </div>
+            </div>
+            <div class="col-md-6" t-attf-class="form-group #{error and 'phone' in error and 'has-error' or ''}">
+                <!--label class="col-md-3 col-sm-4 control-label" for="phone">Phone Number</label-->
+                <div class="col-md-12 col-sm-8">
+                    <input style="margin-bottom:20px;" type="text" class="form-control" name="phone" t-attf-value="#{phone or ''}" placeholder="Phone Number"/>
+                </div>
+            </div>
+            <div class="col-md-6" name="email_from_container" t-attf-class="form-group #{error and 'email_from' in error and 'has-error' or ''}">
+                <!--label class="col-md-3 col-sm-4 control-label" for="email_from">Email</label-->
+                <div class="col-md-12 col-sm-8">
+                    <input style="margin-bottom:20px;" type="email" class="form-control" name="email_from" required="True" t-attf-value="#{email_from or ''}" placeholder="Email"/>
+                </div>
+            </div>
+            <div class="col-md-6" t-attf-class="form-group #{error and 'name' in error and 'has-error' or ''}">
+                <!--label class="col-md-3 col-sm-4 control-label" for="name">Subject</label-->
+                <div class="col-md-12 col-sm-8">
+                    <input style="margin-bottom:20px;" type="text" class="form-control" name="name" t-attf-value="#{name or ''}" placeholder="Subject"/>
+                </div>
+            </div>
+            <div class="col-md-12" style="padding-left: 15px; padding-right: 15px;" t-attf-class="form-group #{error and 'description' in error and 'has-error' or ''}">
+                <!--label class="col-md-3 col-sm-4 control-label" for="description">Your Question</label-->
+                <div class="col-md-12 col-sm-8">
+                    <textarea  class="form-control" name="description" style="min-height: 120px; margin-bottom:20px; padding-right:15px;" required="True"><t t-esc="description or ''" placeholder="Your Question"/></textarea>
+                </div>
+            </div>
+            <t t-foreach="kwargs" t-as="kwarg">
+                <input style="margin-bottom:20px;" type="hidden" t-att-name="kwarg[0]" t-att-value="kwarg[1]"/>
+            </t>
+
+            <div class="form-group">
+               <center>
+                <div class="col-md-12">
+                    <button class="btn btn-primary btn-lg btn-black" style="margin-top:30px; margin-bottom:30px;" id="btn-black">SEND MESSAGE</button>
+                </div>
+            </center>
+            </div>
+            </div>
+        </form>
+        </div>
+    </xpath>
+</data>
+

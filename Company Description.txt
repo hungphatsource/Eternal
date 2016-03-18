@@ -1,0 +1,15 @@
+<t name="Company Description" t-name="website.company_description">
+    <div class="row">
+        <div class="col-md-12" style="padding-left: 15px; padding-right: 15px;">
+            <!--address itemscope="itemscope" itemtype="http://schema.org/Organization">
+             
+                <div t-field="res_company.partner_id" t-field-options="{                 &quot;widget&quot;: &quot;contact&quot;,                 &quot;fields&quot;: [&quot;name&quot;, &quot;address&quot;, &quot;phone&quot;, &quot;mobile&quot;, &quot;fax&quot;, &quot;email&quot;]}"/>
+            </address-->
+            <div class="col-md-12" style="padding-left: 15px; padding-right: 15px;">
+                <a t-att-href="res_company.google_map_link()" target="_BLANK">
+                    <img class="thumbnail img-responsive col-md-12" style="height:300px;" t-att-src="res_company.google_map_img()"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</t>

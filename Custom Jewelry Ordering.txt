@@ -1,0 +1,361 @@
+<t name="custom_jewelry" t-name="website_jewelry_ordering.jewelry_ordering">
+  <t t-call="website.layout">
+    <div id="wrap" class="oe_structure oe_empty" style="background-color:#FAFAFA">
+      <link id="bootstrap_css" rel="stylesheet" href="/web/static/lib/bootstrap/css/bootstrap.css" t-ignore="true"/>
+       <link rel="stylesheet" href="/website_jewelry_ordering/static/src/css/bootstrap/bootstrap.css" t-ignore="true"/>
+      <link rel="stylesheet" href="/website_jewelry_ordering/static/src/css/bootstrap/bootstrap.min.css" t-ignore="true"/>
+      <link rel="stylesheet" href="/website/static/src/css/website.css" t-ignore="true"/>
+      <link rel="stylesheet" href="/website_jewelry_ordering/static/src/js/jewelry_ordering.css" t-ignore="true"/>   
+      <link href="/website_jewelry_ordering/static/src/css/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+      <link href="/website_jewelry_ordering/static/src/css/style.css" rel="stylesheet"/>
+      <script type="text/javascript" src="/web/static/lib/bootstrap/js/bootstrap.js"/>
+      <script src="/website_jewelry_ordering/static/src/js/jquery-1.10.2.min.js"/>
+      <script src="/website_jewelry_ordering/static/src/js/bootstrap.min.js"/>
+      <script src="/website_jewelry_ordering/static/src/js/main.js"/>
+      <section>
+        <div class="container">
+          <div class="row" id="custom-jewelry-info">
+            <div class="row text-center">
+              <h1 class="margin-top-0" style="font-family: Playfair Display;">Custom Jewelry Ordering Process</h1>
+            </div>
+            <div class="visible-sm visible-md visible-lg row text-center" style="margin-top:10px;">
+              <div class="main-title-line col-md-1 margin-auto float-none"/>
+            </div>
+            <div class="visible-sm visible-md visible-lg row text-center">
+              <p class="title-description display-block width-100-percent">Tell us about jewelry</p>
+            </div>
+          </div>
+        </div>
+        <div class="body-content body-margin-bottom">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="visible-md visible-lg body-left col-md-2">
+                <img class="img-responsive" src="/website_jewelry_ordering/static/src/img/bg-left.png" style="position: static;"/>
+              </div>
+              <div class="col-md-8 requestform-bg">
+                <h3 class="text-center text-bold" style="font-family:'Playfair Dispay',serif; margin-bottom:40px;">Please fill out the form below</h3>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="col-sm-12 col-md-6">
+                      <form class="requestForm">
+                        <div class="form-group right-inner-addon">
+                          <label for="stones">Jewelry type:</label>
+                           <div class="input-wrapper">
+                          <i class="fa fa-chevron-down"/>
+                          <input class="form-control custom-input" data-content-id="jewelrytypesPopover" data-original-title="" data-toggle="popover" id="jewelrytypes" name="jewelrytypes" placeholder="Ring / Bracelet" tabindex="1" title="" type="text"/>
+                        </div>
+                            
+                        </div>
+                        <div class="form-group right-inner-addon">
+                          <label for="stones">Stone / stones you would like to use:</label>
+                           <div class="input-wrapper">
+                          <i class="fa fa-chevron-down"/>
+                          <input class="form-control custom-input" data-content-id="stonesPopover" data-original-title="" data-toggle="popover" id="stones" name="stones" placeholder="Diamond / Sapphire" tabindex="1" title="" type="text"/>
+                        </div>
+                            
+                        </div>
+                        <div class="form-group right-inner-addon">
+                          <label for="stoneShapes">Stone shape:</label>
+                           <div class="input-wrapper">
+                          <i class="fa fa-chevron-down"/>
+                          <input class="form-control custom-input" data-content-id="stoneShapesPopover" data-original-title="" data-toggle="popover" id="stoneShapes" name="stoneShapes" placeholder="Asscher / Cushion" tabindex="2" title="" type="text"/>
+                        </div>
+                            
+                        </div>
+                        <div class="form-group right-inner-addon">
+                          <label for="metalChoosen">Your choice of metal:</label>
+                           <div class="input-wrapper">
+                          <i class="fa fa-chevron-down"/>
+                          <input class="form-control custom-input" data-content-id="metalChoosenPopover" data-original-title="" data-toggle="popover" id="metalChoosen" name="metalChoosen" placeholder="Platinum / White Gold" tabindex="3" title="" type="text"/>
+                        </div>
+                            
+                        </div>
+                        <div class="form-group right-inner-addon">
+                          <label for="othersShape">Does any of these styles resemble what you want to achieve?</label>
+                           <div class="input-wrapper">
+                          <i class="fa fa-chevron-down"/>
+                          <input class="form-control custom-input" data-content-id="othersShapePopover" data-original-title="" data-toggle="popover" id="othersShape" name="othersShape" placeholder="" tabindex="5" title="" type="text"/>
+                            </div>
+                            
+                        </div>
+                        <div class="form-group right-inner-addon">
+                          <label for="estimatedBudget">Your estimated budget:</label>
+                          <input class="form-control custom-input" id="estimatedBudget" name="estimatedBudget" placeholder="1000$" tabindex="6" type="text"/>
+                        </div>
+                        <div class="form-group right-inner-addon">
+                          <label for="txtFileUpload">Attach example images / sketches:</label>
+                          <span class="file-upload-btn text-uppercase" tabindex="7">ATTACH</span>
+                          <input class="form-control custom-input" id="txtFileUpload" name="txtFileUpload" placeholder="" type="text"/>
+                          <input class="hide" id="fileUploadBtn" name="fileUploadBtn" value="" type="file"/>
+                          <img alt="review image" class="img-responsive review-img-max-height hide" id="reviewImg" src="#" style="position: static;"/>
+                        </div>
+                        <div class="form-group right-inner-addon">
+                          <label for="comment">Optional comments, details about your idea:</label>
+                          <textarea class="form-control custom-input" id="comment" name="comment" placeholder="" rows="7" tabindex="8" type="text"/>
+                        </div>
+                        <div class="form-group right-inner-addon">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <label for="name">Your name:</label>
+                              <input class="form-control custom-input" id="name" name="name" placeholder="e.g. Jonh Doe" required="required" tabindex="9" type="text"/>
+                            </div>
+                            <div class="col-xs-6">
+                              <label for="email">Your email address:</label>
+                              <input class="form-control custom-input" id="email" name="email" placeholder="e.g. jonh@gmail.com" required="required" tabindex="10" type="text"/>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group text-right submit-btn" style="font-family:'Playfair Display', serif; margin-top:20px;">
+                          <button class="btn btn-default text-uppercase" tabindex="11" type="submit">Submit</button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-sm-12 col-md-6" id="popOverArea">
+                      <div id="jewelrytypesPopover" style="display: none;">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Jewelrytype/Ring.png"/>
+                              <span class="popover-img-detail">Ring</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Jewelrytype/EngagementRing.png"/>
+                              <span class="popover-img-detail">Engagement Ring</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Jewelrytype/Bracelet.png"/>
+                              <span class="popover-img-detail">Bracelet</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Jewelrytype/Pendant.png"/>
+                              <span class="popover-img-detail">Pendant</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Jewelrytype/Earrings.png"/>
+                              <span class="popover-img-detail">Earrings</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Jewelrytype/Weddingband.png"/>
+                              <span class="popover-img-detail">Weddingband</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Jewelrytype/Necklace.png"/>
+                              <span class="popover-img-detail">Necklace</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Jewelrytype/Blange.png"/>
+                              <span class="popover-img-detail">Blange</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Jewelrytype/Other.png"/>
+                              <span class="popover-img-detail">Other</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="stonesPopover" style="display: none;">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Stone/Amethyst.png"/>
+                              <span class="popover-img-detail">Amethyst</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Stone/Aquamarine.png"/>
+                              <span class="popover-img-detail">Aquamarine</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Stone/Citrine.png"/>
+                              <span class="popover-img-detail">Citrine</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Stone/Diamond.png"/>
+                              <span class="popover-img-detail">Diamond</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Stone/Emerald.png"/>
+                              <span class="popover-img-detail">Emerald</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Stone/Garnet.png"/>
+                              <span class="popover-img-detail">Garnet</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Stone/Pearl.png"/>
+                              <span class="popover-img-detail">Pearl</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Stone/Peridot.png"/>
+                              <span class="popover-img-detail">Peridot</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Stone/Ruby.png"/>
+                              <span class="popover-img-detail">Ruby</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Stone/Sapphire.png"/>
+                              <span class="popover-img-detail">Sapphire</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Stone/Nostone.png"/>
+                              <span class="popover-img-detail">No Stone</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Stone/Other.png"/>
+                              <span class="popover-img-detail">Other</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="stoneShapesPopover" style="display: none;">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Asscher.png"/>
+                              <span class="popover-img-detail">Asscher</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Cushion.png"/>
+                              <span class="popover-img-detail">Cushion</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Emerald.png"/>
+                              <span class="popover-img-detail">Emerald</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Heart.png"/>
+                              <span class="popover-img-detail">Heart</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Marquise.png"/>
+                              <span class="popover-img-detail">Marquise</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Oval.png"/>
+                              <span class="popover-img-detail">Oval</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Pear.png"/>
+                              <span class="popover-img-detail">Pear</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Princess.png"/>
+                              <span class="popover-img-detail">Princess</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Radiant.png"/>
+                              <span class="popover-img-detail">Radiant</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Round.png"/>
+                              <span class="popover-img-detail">Round</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Triangle.png"/>
+                              <span class="popover-img-detail">Triangle</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Other.png"/>
+                              <span class="popover-img-detail">Other</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="metalChoosenPopover" style="display: none;">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Material/Platinum.png"/>
+                              <span class="popover-img-detail">Platinum</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Material/WhiteGold.png"/>
+                              <span class="popover-img-detail">White Gold</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Material/YellowGold.png"/>
+                              <span class="popover-img-detail">Yellow Gold</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Material/RoseGold.png"/>
+                              <span class="popover-img-detail">Rose Gold</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Material/Twotone2.png"/>
+                              <span class="popover-img-detail">Two tone</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/Material/Silver.png"/>
+                              <span class="popover-img-detail">Silver</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="othersShapePopover" style="display: none;">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Asscher.png"/>
+                              <span class="popover-img-detail">Asscher</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Cushion.png"/>
+                              <span class="popover-img-detail">Cushion</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Emerald.png"/>
+                              <span class="popover-img-detail">Emerald</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Heart.png"/>
+                              <span class="popover-img-detail">Heart</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Marquise.png"/>
+                              <span class="popover-img-detail">Marquise</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Oval.png"/>
+                              <span class="popover-img-detail">Oval</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Pear.png"/>
+                              <span class="popover-img-detail">Pear</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Princess.png"/>
+                              <span class="popover-img-detail">Princess</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Radiant.png"/>
+                              <span class="popover-img-detail">Radiant</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Round.png"/>
+                              <span class="popover-img-detail">Round</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Triangle.png"/>
+                              <span class="popover-img-detail">Triangle</span>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 text-center text-uppercase">
+                              <img class="img-responsive img-circle" src="/website_jewelry_ordering/static/src/img/StoneShape/Other.png"/>
+                              <span class="popover-img-detail">Other</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="visible-md visible-lg body-right col-md-2">
+                <img class="img-responsive" src="/website_jewelry_ordering/static/src/img/bg-left.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+</t>
